@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color: #000;
     padding: 20px 0px;
 }
 
@@ -31,12 +31,12 @@ body {
 }
 
 .menu {
-    color: white;
+    color: #fff;
     margin: 0;
 }
 
 a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ a {
 }
 
 .description_title {
-    color: white;
+    color: #fff;
     font-size: 36px;
     line-height: 1.2;
     text-transform: uppercase;
@@ -86,10 +86,29 @@ a {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     line-height: 1.2;
-    color: white;
+    color: #fff;
     display: inline-block;
-    border: 1px solid white;
-    padding: 10px 25px;
+    border: 1px solid #fff padding: 10px 25px;
+}
+
+.form {
+    width: 360px;
+    font-family: sans-serif;
+}
+
+.top_form_input {
+    width: 30%;
+}
+
+.orange_button {
+    width: 100%;
+    background-color: #ffa500;
+    text-justify: center;
+}
+
+.top-form .big {
+    color: #ffa500;
+    text-transform: uppercase;
 }
 
 .social_left {
@@ -123,5 +142,5 @@ a {
 .social_right i {
     font-size: 48px;
     color: #cccccc;
-    margin-left: 60px;
+    margin-right: 60px;
 }
