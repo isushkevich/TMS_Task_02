@@ -144,3 +144,9 @@ a {
     color: #cccccc;
     margin-right: 60px;
 }
+
+.triangle {
+    border-color: transparent;
+    border-top-width: 100px;
+    border-top-color: brown;
+}
